@@ -26,12 +26,3 @@ function getDB() {
 
 module.exports = { connectToMongoDB, getDB };
 
-
-// try {
-//     await client.connect();
-//     db = client.db(DB_CONFIG.dbName);
-//     console.log('AaA Successfully connected to MongoDB:', DB_CONFIG.dbName);
-// } catch (error) {
-//     console.error('AaA Failed to connect to MongoDB:', error);
-//     throw error;
-// }
